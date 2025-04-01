@@ -27,8 +27,8 @@ const Product: FC<ProductType> = ({product}) => {
             <div className="product-dimension">Глибина: {product.dimensions.depth}</div>
 
             {/* Теги */}
-            {product.tags.map((value) => (
-                <div className="tag-container">
+            {product.tags.map((value, index) => (
+                <div key={index} className="tag-container">
                     {value}
                 </div>
             ))}
@@ -42,8 +42,8 @@ const Product: FC<ProductType> = ({product}) => {
             <div className="product-min-order">{product.minimumOrderQuantity}</div>
 
             {/* Відгуки */}
-            {product.reviews.map((value) => (
-                <div className="review-container">
+            {product.reviews.map((value, index) => (
+                <div key={index} className="review-container">
                     <div className="review-rating">Рейтинг: {value.rating}</div>
                     <div className="review-comment">Коментарій: {value.comment}</div>
                     <div className="review-date">Дата: {value.date}</div>
