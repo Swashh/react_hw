@@ -1,4 +1,6 @@
-import './App.css'
+// import './App.css'
+// ДЗ1
+// import CityLocation from "./components/location/CityLocation.tsx";
 // #gi01MZ6v
 // import MyCourses from "./components/my-courses/my-courses.tsx";
 // import {coursesTitleArray} from "./data/coursesTitleArr.tsx";
@@ -13,6 +15,18 @@ import './App.css'
 
 // #yiugR7&TF
 // import MyCourses from "./components/courses/MyCourses.tsx";
+
+// ДЗ2
+// #ohm4AivCEBv
+// import Todos from "./components/todosComponent/todos.tsx";
+
+// #x7sQQ3cJ3
+// import Posts from "./components/postsComponent/posts.tsx";
+
+// #98uhQGhaN
+// import Comments from "./components/commentsComponent/comments.tsx";
+
+import Products from "./components/productsPagination/products.tsx";
 
 function App() {
 
@@ -35,6 +49,18 @@ function App() {
 
                 // #yiugR7&TF
                 // <MyCourses />
+                // <CityLocation/>
+
+                // #ohm4AivCEBv
+                // <Todos/>
+
+                // #x7sQQ3cJ3
+                // <Posts/>
+
+                // #98uhQGhaN
+                // <Comments/>
+
+                <Products/>
             }
         </>
     )
